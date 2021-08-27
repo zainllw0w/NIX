@@ -9,7 +9,7 @@ def func(num, myList):
 
     else:
         for i in range(num):
-           newList.append([])
+            newList.append([])
         for i in myList:
             if y == num:
                 y = 0
@@ -22,6 +22,3 @@ number = int(input('Введите число: '))
 myList = [1, 2, 3]
 
 print(func(number, myList))
-
-
-
